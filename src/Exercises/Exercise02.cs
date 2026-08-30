@@ -9,6 +9,10 @@ public static class Exercise02
     public static IEnumerable<string> FindLongWords(List<string> words)
     {
         // TODO: implement
-        throw new NotImplementedException();
+        //var longWords = words.Where( word => word.Length > 5);
+        var longWords = from word in words
+                        where word.Length > 5
+                        select word;
+        return longWords;
     }
 }

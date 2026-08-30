@@ -8,7 +8,10 @@ public static class Exercise05
 {
     public static IEnumerable<string> PaginateProducts(List<string> products)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        // var paginated = (from p in products
+        //                   select p).Skip(20).Take(10);
+        
+        var paginated = products.Skip(20).Take(10);
+        return paginated;
     }
 }

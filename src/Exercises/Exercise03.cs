@@ -8,7 +8,11 @@ public static class Exercise03
 {
     public static IEnumerable<string> SortNamesDescending(List<string> names)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        //        var descendingNames = names.OrderByDescending(name => name);
+
+        var descendingNames =   from name in names
+                                orderby name descending
+                                select name;
+        return descendingNames;
     }
 }

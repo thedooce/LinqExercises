@@ -8,7 +8,7 @@ public static class Exercise10
 {
     public static string LastWordEndingWithE(List<string> words)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var first = words.Where(word => word.EndsWith('e')).Last();
+        return first;
     }
 }

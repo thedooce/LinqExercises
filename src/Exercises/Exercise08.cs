@@ -8,7 +8,7 @@ public static class Exercise08
 {
     public static IEnumerable<int> SquareNumbers(List<int> numbers)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var squares = numbers.Select(number => number * number);
+        return squares;
     }
 }

@@ -8,7 +8,7 @@ public static class Exercise09
 {
     public static int FirstDivisibleBySeven(List<int> numbers)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var first = numbers.Where(number => number % 7 == 0).FirstOrDefault(0);
+        return first;
     }
 }

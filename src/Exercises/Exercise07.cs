@@ -8,7 +8,7 @@ public static class Exercise07
 {
     public static IEnumerable<int> FilterAgesInRange(List<int> ages)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var inRange = ages.Where(age => age >= 25 && age <= 35);
+        return inRange;
     }
 }

@@ -8,7 +8,11 @@ public static class Exercise04
 {
     public static IEnumerable<int> TopThreeUniqueNumbers(int[] numbers)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        //        var topUnique = numbers.Distinct().OrderDescending().Take(3);
+
+        var topUnique = (from n in numbers.Distinct()
+                          orderby n descending
+                          select n).Take(3);
+        return topUnique;
     }
 }
