@@ -11,8 +11,7 @@ public static class Exercise34
     public static IEnumerable<string> LeftJoinEmployeesDepartments(
         List<EmployeeRecord> employees, List<DepartmentInfo> departments)
     {
-        // TODO: use employees.GroupJoin(departments, e => e.DepartmentId, d => d.Id, (e, deps) => new { e, deps })
-        //       .SelectMany(x => x.deps.DefaultIfEmpty(), (x, d) => $"{x.e.Name}: {d?.Name ?? "No Department"}")
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

@@ -8,7 +8,7 @@ public static class Exercise27
 {
     public static decimal SumDepartmentSalary(List<Employee> employees, string department)
     {
-        // TODO: Where(e => e.Department == department) -> Sum(e => e.Salary)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

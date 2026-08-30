@@ -8,7 +8,7 @@ public static class Exercise30
 {
     public static string LongestWordMaxBy(string[] words)
     {
-        // TODO: use words.MaxBy(w => w.Length)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

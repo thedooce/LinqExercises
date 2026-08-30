@@ -8,7 +8,7 @@ public static class Exercise09
 {
     public static int FirstDivisibleBySeven(List<int> numbers)
     {
-        // TODO: use FirstOrDefault() with a predicate n % 7 == 0
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

@@ -8,7 +8,7 @@ public static class Exercise21
 {
     public static int SumOfSquaresOfOdds(List<int> numbers)
     {
-        // TODO: Where(odd) -> Select(square) -> Sum()
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

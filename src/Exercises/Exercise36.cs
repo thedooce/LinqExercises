@@ -8,7 +8,7 @@ public static class Exercise36
 {
     public static IEnumerable<string> FindMissingProducts(List<string> inventoryA, List<string> inventoryB)
     {
-        // TODO: use inventoryA.Except(inventoryB)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

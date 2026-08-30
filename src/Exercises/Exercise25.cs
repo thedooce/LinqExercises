@@ -9,7 +9,7 @@ public static class Exercise25
 {
     public static string JoinWordsAggregate(List<string> words)
     {
-        // TODO: use Aggregate((acc, next) => $"{acc}, {next}")
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

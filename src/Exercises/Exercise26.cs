@@ -8,7 +8,7 @@ public static class Exercise26
 {
     public static long FactorialLinq(int n)
     {
-        // TODO: use Enumerable.Range(1, n).Aggregate(1L, (acc, x) => acc * x)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

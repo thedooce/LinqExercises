@@ -8,7 +8,7 @@ public static class Exercise22
 {
     public static double AveragePriceAfterYear(List<Book> books, int year = 2010)
     {
-        // TODO: Where(b => b.Year > year) -> Average(b => (double)b.Price)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

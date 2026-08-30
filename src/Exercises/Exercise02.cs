@@ -8,7 +8,7 @@ public static class Exercise02
 {
     public static IEnumerable<string> FindLongWords(List<string> words)
     {
-        // TODO: use Where() with word.Length > 5
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

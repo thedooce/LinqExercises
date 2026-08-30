@@ -8,7 +8,7 @@ public static class Exercise08
 {
     public static IEnumerable<int> SquareNumbers(List<int> numbers)
     {
-        // TODO: use Select() to project n => n * n
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

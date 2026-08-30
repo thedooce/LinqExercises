@@ -8,7 +8,7 @@ public static class Exercise04
 {
     public static IEnumerable<int> TopThreeUniqueNumbers(int[] numbers)
     {
-        // TODO: use Distinct(), OrderByDescending(), Take()
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

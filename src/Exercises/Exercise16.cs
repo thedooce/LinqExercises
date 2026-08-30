@@ -9,7 +9,7 @@ public static class Exercise16
 {
     public static string[] ProjectWithIndex(List<string> items)
     {
-        // TODO: use Select() overload with (value, index) => ...
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

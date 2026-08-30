@@ -9,7 +9,7 @@ public static class Exercise17
 {
     public static IEnumerable<string> ZipFullNames(string[] firstNames, string[] lastNames)
     {
-        // TODO: use Zip() with (first, last) => $"{first} {last}"
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

@@ -8,7 +8,7 @@ public static class Exercise23
 {
     public static (decimal Min, decimal Max) MinMaxPrice(List<Product> products)
     {
-        // TODO: use Min(p => p.Price) and Max(p => p.Price)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

@@ -8,7 +8,7 @@ public static class Exercise35
 {
     public static IEnumerable<int> FindCommonNumbers(List<int> listA, List<int> listB)
     {
-        // TODO: use listA.Intersect(listB)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

@@ -8,7 +8,7 @@ public static class Exercise03
 {
     public static IEnumerable<string> SortNamesDescending(List<string> names)
     {
-        // TODO: use OrderByDescending()
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

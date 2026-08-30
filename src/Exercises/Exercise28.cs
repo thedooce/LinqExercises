@@ -8,7 +8,7 @@ public static class Exercise28
 {
     public static int CountVowels(string text)
     {
-        // TODO: use Count() with a predicate over "aeiouAEIOU".Contains(c)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace Exercises;
 
 /// <summary>
@@ -8,7 +10,10 @@ public static class Exercise01
 {
     public static IEnumerable<int> FilterEvenNumbers(List<int> numbers)
     {
-        // TODO: use Where() to keep only even numbers
-        throw new NotImplementedException();
+        //var evens = numbers.Where(x => x%2 == 0);
+        var evens = from num in numbers
+                    where num % 2 == 0
+                    select num;
+        return evens;
     }
 }

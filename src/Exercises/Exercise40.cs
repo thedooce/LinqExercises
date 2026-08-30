@@ -9,7 +9,7 @@ public static class Exercise40
 {
     public static IEnumerable<int[]> ChunkList(List<int> numbers, int chunkSize = 5)
     {
-        // TODO: use numbers.Chunk(chunkSize)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

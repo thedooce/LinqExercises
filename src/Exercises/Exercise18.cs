@@ -9,7 +9,7 @@ public static class Exercise18
 {
     public static IEnumerable<string> UniqueEmailDomains(List<string> emails)
     {
-        // TODO: use Select() to get the part after '@', then Distinct()
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

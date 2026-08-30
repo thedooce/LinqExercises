@@ -9,7 +9,7 @@ public static class Exercise37
 {
     public static IEnumerable<string> CombineWithoutDuplicates(List<string> listA, List<string> listB)
     {
-        // TODO: use listA.Union(listB)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

@@ -8,7 +8,7 @@ public static class Exercise06
 {
     public static IEnumerable<string> FruitsStartingWithA(string[] fruits)
     {
-        // TODO: use Where() with StartsWith(StringComparison.OrdinalIgnoreCase)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

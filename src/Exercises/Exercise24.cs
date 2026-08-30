@@ -8,7 +8,7 @@ public static class Exercise24
 {
     public static int CountContainingLinq(List<string> sentences)
     {
-        // TODO: use Count() with a predicate s => s.Contains("LINQ")
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

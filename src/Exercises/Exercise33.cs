@@ -9,7 +9,7 @@ public static class Exercise33
 {
     public static IEnumerable<string> InnerJoinStudentsCourses(List<Student> students, List<Course> courses)
     {
-        // TODO: use students.Join(courses, s => s.Id, c => c.StudentId, (s, c) => $"{s.Name}: {c.Name}")
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

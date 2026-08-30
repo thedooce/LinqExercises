@@ -8,7 +8,7 @@ public static class Exercise05
 {
     public static IEnumerable<string> PaginateProducts(List<string> products)
     {
-        // TODO: use Skip(20) and Take(10)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

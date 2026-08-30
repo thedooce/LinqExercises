@@ -8,7 +8,7 @@ public static class Exercise12
 {
     public static IEnumerable<string> ProjectEmails(List<User> users)
     {
-        // TODO: use Select() to project u => u.Email
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

@@ -9,7 +9,7 @@ public static class Exercise13
 {
     public static IEnumerable<dynamic> ProjectProductTax(List<Product> products)
     {
-        // TODO: use Select() to project: new { ProductName = p.Name, CalculatedTax = p.Price * 0.15m }
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

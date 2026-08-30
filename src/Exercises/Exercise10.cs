@@ -8,7 +8,7 @@ public static class Exercise10
 {
     public static string LastWordEndingWithE(List<string> words)
     {
-        // TODO: use Last() with a predicate word.EndsWith("e")
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

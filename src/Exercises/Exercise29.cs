@@ -8,7 +8,7 @@ public static class Exercise29
 {
     public static long ProductOfNonZero(int[] numbers)
     {
-        // TODO: Where(n => n != 0) -> Aggregate(1L, (acc, n) => acc * n)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

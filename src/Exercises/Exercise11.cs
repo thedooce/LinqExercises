@@ -8,7 +8,7 @@ public static class Exercise11
 {
     public static IEnumerable<string> ToUpperCase(List<string> words)
     {
-        // TODO: use Select() with word.ToUpper()
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

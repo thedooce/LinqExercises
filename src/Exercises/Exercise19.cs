@@ -8,7 +8,7 @@ public static class Exercise19
 {
     public static IEnumerable<int> FlattenMatrix(int[][] matrix)
     {
-        // TODO: use SelectMany() with the identity selector row => row
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

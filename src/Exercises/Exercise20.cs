@@ -8,7 +8,7 @@ public static class Exercise20
 {
     public static IEnumerable<string> ExtractFileExtensions(List<string> filePaths)
     {
-        // TODO: use Select() with Path.GetExtension(path)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

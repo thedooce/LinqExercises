@@ -9,7 +9,7 @@ public static class Exercise14
 {
     public static IEnumerable<Employee> FlattenEmployees(List<Department> departments)
     {
-        // TODO: use SelectMany() to flatten d.Employees across all departments
+        // TODO: implement
         throw new NotImplementedException();
     }
 }

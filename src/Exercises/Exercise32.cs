@@ -9,7 +9,7 @@ public static class Exercise32
 {
     public static IEnumerable<(int Length, int Count)> CountWordsByLength(List<string> words)
     {
-        // TODO: GroupBy(w => w.Length) -> Select(g => (g.Key, g.Count())) -> OrderByDescending(x => x.Count)
+        // TODO: implement
         throw new NotImplementedException();
     }
 }
