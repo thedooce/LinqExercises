@@ -8,7 +8,9 @@ public static class Exercise15
 {
     public static IEnumerable<char> UniqueCharactersSorted(string sentence)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var uniqueSorted = sentence.Where(c => c != ' ')
+                                    .Distinct()
+                                    .OrderBy(c => c);
+        return uniqueSorted;
     }
 }
