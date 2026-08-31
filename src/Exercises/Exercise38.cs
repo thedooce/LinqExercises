@@ -8,7 +8,8 @@ public static class Exercise38
 {
     public static int MostFrequentNumber(int[] numbers)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var stuff = numbers.GroupBy(number => number).MaxBy(group => group.Count()).Key;
+                    
+        return stuff;
     }
 }

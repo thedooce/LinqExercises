@@ -8,7 +8,7 @@ public static class Exercise31
 {
     public static IEnumerable<IGrouping<int, Person>> GroupPeopleByAge(List<Person> people)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var groups = people.GroupBy(person => person.Age);
+        return groups;
     }
 }

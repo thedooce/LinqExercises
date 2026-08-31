@@ -9,7 +9,8 @@ public static class Exercise16
 {
     public static string[] ProjectWithIndex(List<string> items)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var strings = items.Select((value, index) => $"Index: {index}, Value: {value}")
+                            .ToArray();
+        return strings;
     }
 }

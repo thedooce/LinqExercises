@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Exercises;
 
 /// <summary>
@@ -9,7 +11,10 @@ public static class Exercise32
 {
     public static IEnumerable<(int Length, int Count)> CountWordsByLength(List<string> words)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var groupedByLength = words.GroupBy( word => word.Length)
+                                    .Select (group => (Length: group.Key, Count: group.Count()))
+                                    .OrderByDescending(group => group.Count);
+
+        return groupedByLength;
     }
 }

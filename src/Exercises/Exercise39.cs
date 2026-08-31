@@ -9,7 +9,8 @@ public static class Exercise39
 {
     public static IEnumerable<Employee> HighestPaidPerDepartment(List<Employee> employees)
     {
-        // TODO: implement
-        throw new NotImplementedException();
+        var highestPaidEmployees = employees.GroupBy(employee => employee.Department)
+                                            .Select(group => group.MaxBy(employee => employee.Salary));
+        return highestPaidEmployees;
     }
 }
